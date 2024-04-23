@@ -1,0 +1,14 @@
+{
+    "name": "template",
+    "short_name": "template",
+    "start_url": ".",
+    "theme_color": "#1A1A1B",
+    "background_color": "#537649",
+    "icons": [{
+        "src": "assets/pictures/logo.png",
+        "sizes": "144x144 64x64 32x32 24x24 16x16",
+        "type": "image/png",
+        "purpose": "any"
+    }],
+    "display": "standalone"
+}
