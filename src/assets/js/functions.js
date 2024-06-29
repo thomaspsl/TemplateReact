@@ -12,11 +12,11 @@ titleDynamic();
 
 // Functions
 function titleDynamic(){
-    let title = ""
+    let title = ''
     window.addEventListener('blur', _ => {
       if(document.querySelector('title')){
         title = document.querySelector('title').textContent;
-        document.querySelector('title').textContent = "Come back dude!";
+        document.querySelector('title').textContent = 'Come back dude!';
       }
     });
     window.addEventListener('focus', _ => {

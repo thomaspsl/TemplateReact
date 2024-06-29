@@ -1,11 +1,11 @@
 import { Squash as Hamburger } from 'hamburger-react'
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
 export default function Wrapper(props: any) {
   var [isOpen, setOpen] = React.useState(false);
 
   useEffect(() => {
-    window.addEventListener("resize", _ =>{
+    window.addEventListener('resize', _ =>{
       if(window.innerWidth >= 950 && document.querySelector('.header')?.classList.contains('hamburgerOpen')){
         setOpen(false);
         document.querySelector('.header')?.classList.remove('hamburgerOpen');
@@ -32,7 +32,7 @@ export default function Wrapper(props: any) {
     
   return (
   <>
-    <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/components/hamburger.css'} />
+    <link rel='stylesheet' href={process.env.PUBLIC_URL + '/assets/css/components/hamburger.css'} />
 
     <Hamburger rounded toggled={isOpen} toggle={setOpen} />
   </>

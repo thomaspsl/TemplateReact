@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Wrapper(props: any) {
   useEffect(() => {
@@ -7,11 +7,11 @@ export default function Wrapper(props: any) {
 
   return (
   <>
-    <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/routes/unknown.css'} />
+    <link rel='stylesheet' href={process.env.PUBLIC_URL + '/assets/css/routes/unknown.css'} />
 
-    <div className="content">
+    <div className='content'>
 
-      <div className="middle">
+      <div className='middle'>
 
         <span>404</span>
 

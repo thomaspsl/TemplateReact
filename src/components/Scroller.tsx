@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Wrapper(props: any) {
   useEffect(() => {
@@ -7,9 +7,9 @@ export default function Wrapper(props: any) {
 
   return (
   <>
-    <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/components/scroller.css'} />
+    <link rel='stylesheet' href={process.env.PUBLIC_URL + '/assets/css/components/scroller.css'} />
 
-    <div className="scroller">
+    <div className='scroller'>
 
       <b>
                 

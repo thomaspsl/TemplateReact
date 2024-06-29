@@ -8,11 +8,11 @@ export default function Wrapper(props: any) {
 
   return (
   <>
-    <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/layouts/menus.css'} />
+    <link rel='stylesheet' href={process.env.PUBLIC_URL + '/assets/css/layouts/menus.css'} />
 
-    <Link to="/" id="home">HOME</Link>
+    <Link to='/' id='home'>HOME</Link>
 
-    <Link to="/login" id="login">LOGIN</Link>
+    <Link to='/login' id='login'>LOGIN</Link>
   </>
   );
 }

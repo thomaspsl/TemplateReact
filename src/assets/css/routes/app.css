@@ -1,6 +1,6 @@
 @font-face {
   font-family: CircularSTD;
-  src: url("../../fonts/CircularStd-Black.otf") format("opentype");
+  src: url('../../fonts/CircularStd-Black.otf') format('opentype');
   font-display: block;
 }
 :root {

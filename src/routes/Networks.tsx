@@ -1,29 +1,29 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Wrapper(props: any) {
   useEffect(() => {
     document.title = props.title;
-    document.querySelectorAll("a").forEach((element) => {
-      if (element?.classList.contains("current")) element?.classList.remove("current");
+    document.querySelectorAll('a').forEach((element) => {
+      if (element?.classList.contains('current')) element?.classList.remove('current');
     });
-    document.querySelectorAll("#networks").forEach((element) => {
-      element?.classList.add("current");
+    document.querySelectorAll('#networks').forEach((element) => {
+      element?.classList.add('current');
     });
   }, [props.title]);
 
   return (
   <>
-    <link rel="stylesheet" href={process.env.PUBLIC_URL + '/assets/css/routes/networks.css'} />
+    <link rel='stylesheet' href={process.env.PUBLIC_URL + '/assets/css/routes/networks.css'} />
 
-    <div className="content">
+    <div className='content'>
 
-      <div className="middle">
+      <div className='middle'>
 
         <span>Work in progress</span>
 
       </div>
 
-      <div className="middle">
+      <div className='middle'>
 
         <span>Work in progress</span>
 

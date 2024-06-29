@@ -103,7 +103,7 @@ a {
   font-size: 1rem;
 }
 .mobileMenus:before {
-  content: "";
+  content: '';
   display: block;
   background: var(--color_grey);
   width: 100%;
@@ -122,7 +122,7 @@ a {
 .mobileNav a::before,
 .right_footer a::before {
   display: var(--hidden);
-  content: "";
+  content: '';
   height: 0.7em;
   position: absolute;
   left: -0.5em;
@@ -149,7 +149,7 @@ a {
 .mobileNav .current::before,
 .right_footer .current::before {
   display: block;
-  content: "";
+  content: '';
   height: 0.7em;
   position: absolute;
   left: -0.5em;

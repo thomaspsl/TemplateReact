@@ -17,7 +17,7 @@
   transform: rotate(90deg);
 }
 .scroller:after {
-  content: "";
+  content: '';
   display: block;
   background-color: var(--color_wheat);
   width: 1px;
